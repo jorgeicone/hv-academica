@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hoja de Vida Académica — Jorge Hugo Pérez Gaona · Docente de Cátedra</title>
+  <meta name="description" content="Hoja de Vida Académica de Jorge Hugo Pérez Gaona — MBA Universidad EAN · Maestría en Liderazgo Estratégico Escuela de Negocios de Navarra · Especialización en Gerencia de Mercadeo Politécnico Grancolombiano · Ingeniero Comercial UDCA. 25+ años de experiencia ejecutiva en Nestlé, Nutresa, Kellogg's y CasaLuker, combinados con docencia activa en EAN, Politécnico Grancolombiano y SENA. Áreas de cátedra: Mercadeo, Emprendimiento e IA aplicada. Mentor de Emprendimiento certificado por el Politécnico Grancolombiano." />
+  <meta property="og:title" content="HV Académica · Jorge Hugo Pérez Gaona — Docente de Cátedra · Mercadeo, Emprendimiento e IA" />
+  <meta property="og:description" content="25+ años ejecutivos · MBA EAN + Maestría Navarra · Docente activo EAN, Poli, SENA · Mentor de Emprendimiento certificado por el Politécnico · Nominado Mentor del Año EAN." />
+  <meta property="og:type" content="profile" />
+  <meta property="og:url" content="https://jorgeicone.github.io/hv-academica/" />
+  <meta property="og:image" content="https://jorgeicone.github.io/hv-academica/og-image.jpg" />
+  <meta property="og:image:secure_url" content="https://jorgeicone.github.io/hv-academica/og-image.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Hoja de Vida Académica — Jorge Hugo Pérez Gaona" />
+  <meta property="og:locale" content="es_CO" />
+  <link rel="canonical" href="https://jorgeicone.github.io/hv-academica/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="HV Académica · Jorge Hugo Pérez Gaona — Docente de Cátedra" />
+  <meta name="twitter:description" content="MBA EAN · Maestría Navarra · 25+ años ejecutivos + docencia activa EAN, Poli, SENA · Áreas: Mercadeo, Emprendimiento, IA aplicada." />
+  <meta name="twitter:image" content="https://jorgeicone.github.io/hv-academica/og-image.jpg" />
+  <link rel="icon" href="jorge.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,700;1,500;1,700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #050d1f;
+      --bg-deep: #030814;
+      --bg-card: #0a1530;
+      --cyan: #00d4ff;
+      --cyan-soft: #4ee0ff;
+      --purple: #7b2fff;
+      --orange: #ff8c00;
+      --orange-soft: #ffa940;
+      --gold: #ff8c00;
+      --green: #00d48a;
+      --white: #ffffff;
+      --text: #e8eaf6;
+      --text-muted: #7986cb;
+      --text-soft: #a4adcc;
+      --border: rgba(0, 212, 255, 0.16);
+      --border-hover: rgba(0, 212, 255, 0.42);
+      --card-bg: rgba(255, 255, 255, 0.03);
+      --glow-cyan: 0 0 36px rgba(0, 212, 255, 0.22), 0 0 10px rgba(0, 212, 255, 0.14);
+      --grad-title: linear-gradient(135deg, #00d4ff 0%, #7b2fff 100%);
+      --grad-accent: linear-gradient(135deg, #00d4ff 0%, #00d48a 100%);
+      --grad-orange: linear-gradient(135deg, #ff8c00 0%, #ff4757 100%);
+      --grad-mesh: radial-gradient(at 20% 20%, rgba(0, 212, 255, 0.10) 0%, transparent 50%),
+                   radial-gradient(at 80% 30%, rgba(123, 47, 255, 0.09) 0%, transparent 50%),
+                   radial-gradient(at 50% 80%, rgba(255, 140, 0, 0.06) 0%, transparent 50%);
+      --radius: 16px;
+      --radius-sm: 8px;
+      --radius-lg: 24px;
+      --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      --font: 'Inter', system-ui, sans-serif;
+      --font-display: 'Playfair Display', 'Inter', serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font);
+      background: var(--bg-deep);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+      line-height: 1.65;
+      position: relative;
+      -webkit-font-smoothing: antialiased;
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: var(--grad-mesh);
+      z-index: 0;
+      pointer-events: none;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    ::selection { background: rgba(0, 212, 255, 0.3); color: var(--white); }
+
+    .blob {
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(90px);
+      opacity: 0.10;
+      z-index: 0;
+      pointer-events: none;
+      animation: blobFloat 25s infinite ease-in-out;
+    }
+    .blob-1 { width: 480px; height: 480px; background: var(--cyan); top: -120px; left: -120px; }
+    .blob-2 { width: 560px; height: 560px; background: var(--purple); top: 40%; right: -220px; animation-delay: -10s; }
+    .blob-3 { width: 400px; height: 400px; background: var(--orange); bottom: 0; left: 30%; animation-delay: -20s; opacity: 0.06; }
+    @keyframes blobFloat {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      33% { transform: translate(40px, -30px) scale(1.05); }
+      66% { transform: translate(-30px, 40px) scale(0.95); }
+    }
+
+    .wrapper { position: relative; z-index: 1; max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+
+    /* Top bar */
+    .top-bar {
+      position: sticky; top: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 0; margin-bottom: 30px;
+      backdrop-filter: blur(20px);
+      background: rgba(3, 8, 20, 0.75);
+      border-bottom: 1px solid var(--border);
+    }
+    .brand { display: flex; align-items: center; gap: 12px; font-weight: 800; font-size: 16px; }
+    .brand-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--cyan); box-shadow: var(--glow-cyan); }
+    .brand-tag {
+      display: inline-block;
+      font-size: 10px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase;
+      color: var(--orange);
+      background: rgba(255, 140, 0, 0.10);
+      border: 1px solid rgba(255, 140, 0, 0.34);
+      padding: 4px 10px; border-radius: 999px; white-space: nowrap;
+    }
+    .top-bar-links { display: flex; gap: 22px; font-size: 13px; color: var(--text-muted); }
+    .top-bar-links a { transition: color var(--transition); }
+    .top-bar-links a:hover { color: var(--cyan); }
+    @media (max-width: 920px) { .top-bar-links { display: none; } .brand-tag { display: none; } }
+
+    /* Hero */
+    .hero {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 50px;
+      align-items: center;
+      padding: 40px 0 60px;
+    }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 10px;
+      font-size: 11px; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--cyan); font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .pulse-dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: var(--cyan); box-shadow: var(--glow-cyan);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(1.2); }
+    }
+    h1 {
+      font-family: var(--font-display); font-weight: 800;
+      font-size: clamp(38px, 5.5vw, 64px);
+      line-height: 1.05; letter-spacing: -1px;
+      margin-bottom: 16px;
+    }
+    .grad {
+      background: var(--grad-title);
+      -webkit-background-clip: text; background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .accent-line { font-size: 19px; font-weight: 600; color: var(--cyan-soft); margin-bottom: 16px; }
+    .role-line { font-size: 15px; color: var(--text-soft); margin-bottom: 24px; }
+    .role-line span { color: var(--white); font-weight: 600; }
+    .titles {
+      font-size: 15px; line-height: 1.75;
+      color: var(--text); margin-bottom: 30px;
+      padding-left: 16px; border-left: 2px solid var(--cyan);
+    }
+    .titles strong { color: var(--white); font-weight: 600; }
+    .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 13px 22px; border-radius: var(--radius-sm);
+      font-weight: 600; font-size: 14px;
+      transition: var(--transition); cursor: pointer; border: none;
+      font-family: inherit;
+    }
+    .btn-primary {
+      background: var(--grad-orange); color: var(--white);
+      box-shadow: 0 0 32px rgba(255,140,0,0.35);
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 0 48px rgba(255,140,0,0.55); }
+    .btn-secondary {
+      background: transparent; color: var(--cyan);
+      border: 1px solid var(--border-hover);
+    }
+    .btn-secondary:hover { background: rgba(0,212,255,0.08); transform: translateY(-2px); }
+    .btn-ghost { background: transparent; color: var(--text-muted); }
+    .btn-ghost:hover { color: var(--cyan); }
+    .hero-photo {
+      position: relative;
+      display: flex; justify-content: center; align-items: center;
+    }
+    .hero-photo-frame {
+      position: relative;
+      border-radius: 30px;
+      overflow: hidden;
+      border: 2px solid var(--border-hover);
+      box-shadow: 0 30px 80px rgba(0,0,0,0.6), var(--glow-cyan);
+      max-width: 360px;
+    }
+    .hero-photo-frame img { width: 100%; height: auto; display: block; }
+    .hero-photo-badge {
+      position: absolute; bottom: 20px; right: -10px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-hover);
+      padding: 8px 14px; border-radius: 999px;
+      font-size: 12px; font-weight: 600; color: var(--cyan);
+      display: flex; align-items: center; gap: 8px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+    }
+    .hero-photo-badge .dot {
+      width: 8px; height: 8px; border-radius: 50%; background: var(--green);
+      box-shadow: 0 0 10px var(--green);
+      animation: pulse 2s infinite;
+    }
+    @media (max-width: 820px) {
+      .hero { grid-template-columns: 1fr; gap: 30px; }
+      .hero-photo { order: -1; }
+      .hero-photo-frame { max-width: 240px; }
+    }
+
+    /* Block */
+    .block { padding: 60px 0; }
+    .section-head { margin-bottom: 36px; }
+    .section-eyebrow {
+      display: inline-block; font-size: 11px; letter-spacing: 2px; text-transform: uppercase;
+      color: var(--orange); font-weight: 700; margin-bottom: 14px;
+    }
+    .section-title {
+      font-family: var(--font-display); font-weight: 800;
+      font-size: clamp(28px, 4vw, 44px); line-height: 1.1;
+      margin-bottom: 16px;
+    }
+    .section-title .italic { font-style: italic; font-weight: 400; }
+    .section-subtitle {
+      font-size: 16px; color: var(--text-soft); max-width: 740px;
+    }
+
+    /* Resumen (bio) */
+    .resumen {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 50px 60px;
+    }
+    .resumen p { font-size: 15.5px; color: var(--text); margin-bottom: 18px; }
+    .resumen p:last-child { margin-bottom: 0; }
+    .resumen strong { color: var(--cyan); font-weight: 600; }
+    @media (max-width: 640px) { .resumen { padding: 32px 24px; } }
+
+    /* Formación */
+    .formacion-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+    }
+    .formacion-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px 24px;
+      transition: var(--transition);
+      position: relative;
+    }
+    .formacion-card:hover { border-color: var(--border-hover); transform: translateY(-3px); }
+    .formacion-card .grado {
+      display: block; font-size: 11px; letter-spacing: 1.5px;
+      text-transform: uppercase; color: var(--orange); font-weight: 700;
+      margin-bottom: 10px;
+    }
+    .formacion-card h4 {
+      font-size: 17px; font-weight: 700; color: var(--white);
+      margin-bottom: 6px; line-height: 1.3;
+    }
+    .formacion-card .inst { font-size: 14px; color: var(--text-muted); }
+
+    /* Áreas de cátedra */
+    .areas-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+    .area-card {
+      background:
+        linear-gradient(135deg, rgba(0, 212, 255, 0.04), rgba(123, 47, 255, 0.04)),
+        var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      transition: var(--transition);
+    }
+    .area-card:hover { border-color: var(--border-hover); transform: translateY(-5px); box-shadow: var(--glow-cyan); }
+    .area-icon {
+      font-size: 32px; margin-bottom: 16px;
+    }
+    .area-card h3 {
+      font-size: 22px; font-weight: 800; color: var(--white);
+      margin-bottom: 12px; line-height: 1.2;
+    }
+    .area-card .area-sub {
+      font-size: 13px; color: var(--cyan); font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1px;
+      margin-bottom: 16px;
+    }
+    .area-card .area-desc { font-size: 14px; color: var(--text-muted); margin-bottom: 18px; line-height: 1.65; }
+    .area-card .area-cursos {
+      list-style: none; padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+    .area-card .area-cursos li {
+      font-size: 13.5px; color: var(--text-soft); padding: 6px 0;
+      position: relative; padding-left: 18px;
+    }
+    .area-card .area-cursos li::before {
+      content: '▸'; position: absolute; left: 0; color: var(--cyan);
+    }
+    @media (max-width: 820px) { .areas-grid { grid-template-columns: 1fr; } }
+
+    /* Timeline (trayectoria docente + ejecutiva) */
+    .timeline {
+      display: grid; gap: 18px;
+    }
+    .timeline-item {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--cyan);
+      border-radius: var(--radius);
+      padding: 20px 26px;
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 24px;
+      transition: var(--transition);
+    }
+    .timeline-item:hover { border-color: var(--border-hover); transform: translateX(3px); }
+    .timeline-period {
+      font-size: 12px; letter-spacing: 1.3px; text-transform: uppercase;
+      color: var(--orange); font-weight: 700;
+      align-self: start;
+    }
+    .timeline-content h4 {
+      font-size: 17px; font-weight: 700; color: var(--white);
+      margin-bottom: 4px;
+    }
+    .timeline-content .inst { font-size: 13.5px; color: var(--cyan); font-weight: 600; margin-bottom: 8px; }
+    .timeline-content p { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
+    @media (max-width: 720px) { .timeline-item { grid-template-columns: 1fr; gap: 8px; } }
+
+    /* Lista (certificaciones, reconocimientos) */
+    .list-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+      gap: 14px;
+    }
+    .list-item {
+      display: flex; align-items: flex-start; gap: 14px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px 22px;
+      transition: var(--transition);
+    }
+    .list-item:hover { border-color: var(--border-hover); }
+    .list-item .icon {
+      font-size: 22px; min-width: 30px;
+    }
+    .list-item h5 {
+      font-size: 14.5px; font-weight: 700; color: var(--white);
+      margin-bottom: 4px; line-height: 1.3;
+    }
+    .list-item p { font-size: 13px; color: var(--text-muted); line-height: 1.5; }
+
+    /* Stats */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin: 30px 0;
+      padding: 32px;
+      background:
+        linear-gradient(135deg, rgba(0,212,255,0.04), rgba(123,47,255,0.04)),
+        var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+    }
+    .stat { text-align: center; position: relative; }
+    .stat:not(:last-child)::after {
+      content: ''; position: absolute; right: -8px; top: 20%;
+      width: 1px; height: 60%;
+      background: linear-gradient(180deg, transparent, var(--border), transparent);
+    }
+    .stat-value {
+      font-size: clamp(28px, 4vw, 42px);
+      font-weight: 800; line-height: 1;
+      margin-bottom: 8px;
+      background: var(--grad-title);
+      -webkit-background-clip: text; background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: var(--font-display);
+    }
+    .stat-label {
+      font-size: 11px; color: var(--text-muted);
+      text-transform: uppercase; letter-spacing: 1.2px; font-weight: 600;
+    }
+    @media (max-width: 720px) { .stats { grid-template-columns: repeat(2, 1fr); } .stat:nth-child(2)::after { display: none; } }
+
+    /* Contacto */
+    .contacto {
+      background:
+        linear-gradient(135deg, rgba(0, 212, 255, 0.05), rgba(123, 47, 255, 0.05)),
+        var(--card-bg);
+      border: 1px solid var(--border-hover);
+      border-radius: var(--radius-lg);
+      padding: 50px 60px;
+      text-align: center;
+    }
+    .contacto h3 {
+      font-family: var(--font-display); font-weight: 800;
+      font-size: 32px; margin-bottom: 16px;
+    }
+    .contacto p { color: var(--text-soft); margin-bottom: 28px; font-size: 16px; }
+    .contacto-links {
+      display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;
+    }
+    .contacto-data {
+      margin-top: 28px; font-size: 14px; color: var(--text-muted);
+      display: flex; gap: 24px; justify-content: center; flex-wrap: wrap;
+    }
+    @media (max-width: 640px) { .contacto { padding: 36px 28px; } .contacto h3 { font-size: 24px; } }
+
+    /* Footer */
+    footer {
+      padding: 40px 0; text-align: center;
+      color: var(--text-muted); font-size: 13px;
+      border-top: 1px solid var(--border); margin-top: 40px;
+    }
+
+    /* Reveal animation */
+    .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.6s, transform 0.6s; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* ====================================================
+       PRINT STYLES — Optimizado para PDF
+    ==================================================== */
+    @media print {
+      @page { size: A4; margin: 14mm 12mm; }
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+      html, body {
+        background: white !important;
+        color: #1a2541 !important;
+        font-size: 10pt;
+        line-height: 1.45;
+      }
+      body::before, .blob { display: none !important; }
+      .wrapper { max-width: 100%; padding: 0; }
+      .top-bar { display: none !important; }
+      .reveal { opacity: 1 !important; transform: none !important; }
+      .hero-cta, .btn { display: none !important; }
+      .grad {
+        -webkit-text-fill-color: #1a4d8f !important;
+        color: #1a4d8f !important;
+        background: none !important;
+      }
+      .accent-line, .area-card .area-sub, .timeline-period, .section-eyebrow, .eyebrow,
+      .formacion-card .grado, .stat-label, .contacto p, .titles { color: #5a6478 !important; }
+      .pulse-dot, .brand-dot, .hero-photo-badge { display: none !important; }
+      h1, h2, h3, h4, h5, .section-title, .resumen p strong,
+      .resumen strong, .list-item h5, .area-card h3, .timeline-content h4,
+      .formacion-card h4, .contacto h3 {
+        color: #0a1a3a !important;
+      }
+      .stat-value { color: #1a4d8f !important; -webkit-text-fill-color: #1a4d8f !important; background: none !important; }
+      .resumen, .formacion-card, .area-card, .list-item, .timeline-item, .stats, .contacto {
+        background: white !important;
+        border: 1px solid #d0d8e8 !important;
+        box-shadow: none !important;
+        page-break-inside: avoid;
+      }
+      .resumen p, .area-card .area-desc, .timeline-content p, .list-item p {
+        color: #2a3548 !important;
+      }
+      .resumen strong { color: #1a4d8f !important; }
+      .timeline-item { border-left: 3px solid #1a4d8f !important; }
+      .area-card .area-cursos li::before { color: #1a4d8f !important; }
+      .area-card .area-cursos { border-top-color: #d0d8e8 !important; }
+      .area-card .area-cursos li { color: #2a3548 !important; }
+      .hero-photo-frame {
+        border: 1px solid #d0d8e8 !important;
+        box-shadow: none !important;
+        max-width: 200px !important;
+      }
+      .hero { padding: 10px 0 25px; gap: 30px; }
+      .block { padding: 22px 0; page-break-inside: avoid; }
+      .section-head { margin-bottom: 18px; }
+      .hero h1 { font-size: 28pt; }
+      .section-title { font-size: 18pt; }
+      .formacion-grid, .areas-grid, .list-grid { gap: 10px; }
+      .formacion-card, .area-card, .list-item, .timeline-item { padding: 14px 18px; }
+      a { color: #1a4d8f !important; text-decoration: none; }
+      footer { color: #5a6478 !important; border-color: #d0d8e8 !important; }
+      .brand-tag { display: none !important; }
+      .contacto-data { color: #2a3548 !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <div class="wrapper">
+    <!-- Top Bar -->
+    <header class="top-bar">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <span>Jorge Hugo Pérez Gaona</span>
+        <span class="brand-tag">HV Académica · Docente de Cátedra</span>
+      </div>
+      <nav class="top-bar-links">
+        <a href="#resumen">Resumen</a>
+        <a href="#formacion">Formación</a>
+        <a href="#areas">Áreas de cátedra</a>
+        <a href="#docente">Docencia</a>
+        <a href="#ejecutivo">Ejecutivo</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-text">
+        <span class="eyebrow"><span class="pulse-dot"></span> Postulación a Docente de Cátedra · Politécnico Grancolombiano</span>
+        <h1><span class="grad">Jorge Hugo Pérez Gaona</span></h1>
+        <p class="accent-line">Mercadeo · Emprendimiento · IA aplicada · 25+ años en aula y empresa</p>
+        <p class="role-line">
+          <span>CEO ICONE ialabs</span> · Docente activo Universidad EAN, Politécnico Grancolombiano y SENA · Mentor de Emprendimiento certificado por el Politécnico Grancolombiano · Speaker Internacional EXMA · Nominado Mentor del Año Universidad EAN.
+        </p>
+        <div class="titles">
+          <strong>MBA</strong> — Universidad EAN<br>
+          <strong>Maestría en Liderazgo Estratégico</strong> — Escuela de Negocios de Navarra (España)<br>
+          <strong>Especialización en Gerencia de Mercadeo</strong> — Politécnico Grancolombiano<br>
+          <strong>Ingeniero Comercial</strong> — Universidad de Ciencias Aplicadas y Ambientales (UDCA)
+        </div>
+        <div class="hero-cta">
+          <a href="#contacto" class="btn btn-primary">
+            Contactarme
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+          <a href="javascript:window.print()" class="btn btn-secondary">⬇ Descargar PDF</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="hero-photo-frame">
+          <img src="jorge.png" alt="Jorge Hugo Pérez Gaona — Docente de Cátedra" />
+        </div>
+        <div class="hero-photo-badge">
+          <span class="dot"></span>
+          Disponible H1 2026
+        </div>
+      </div>
+    </section>
+
+    <!-- Resumen Ejecutivo -->
+    <section id="resumen" class="block reveal">
+      <div class="section-head">
+        <span class="section-eyebrow">Resumen ejecutivo</span>
+        <h2 class="section-title">Perfil <span class="italic grad">docente-profesional</span></h2>
+      </div>
+      <div class="resumen">
+        <p>
+          Profesional con <strong>más de 25 años de carrera ejecutiva</strong> en multinacionales de consumo masivo (<strong>Nestlé, Nutresa, Kellogg's, CasaLuker</strong>) combinada con <strong>15+ años de docencia universitaria activa</strong> y <strong>10+ años acompañando emprendedores</strong> en Colombia y Latinoamérica. Esta dualidad <em>aula-empresa</em> es el diferencial central: <strong>lo que enseño hoy es lo que ejecuto con clientes; lo que aplico con clientes es lo que llevo al aula.</strong>
+        </p>
+        <p>
+          Formación académica orientada a la estrategia y el liderazgo: <strong>MBA por la Universidad EAN</strong>, <strong>Maestría en Liderazgo Estratégico por la Escuela de Negocios de Navarra (España)</strong>, <strong>Especialización en Gerencia de Mercadeo por el Politécnico Grancolombiano</strong> e <strong>Ingeniero Comercial por la UDCA</strong>. Docente activo en simultáneo en <strong>Universidad EAN</strong> (donde diseño Ambientes Virtuales de Aprendizaje como Virtual Environment Architect), <strong>Politécnico Grancolombiano</strong> y <strong>SENA</strong>.
+        </p>
+        <p>
+          Mi posicionamiento académico se mueve en tres dominios complementarios donde aporto valor diferencial al aula universitaria: <strong>Mercadeo</strong> (estrategia comercial, brand activation, trade marketing), <strong>Emprendimiento</strong> (modelos de negocio, mentoría, ecosistemas de innovación) e <strong>IA aplicada a los negocios</strong> (orquestación de IAs generativas, predictivas y visuales en flujos comerciales reales). Soy <strong>Mentor de Emprendimiento certificado por el Politécnico Grancolombiano</strong>, <strong>Consultor Certificado en Empresas de Innovación por la EANT</strong>, <strong>certificado por EXMA como Speaker e inversor en startups</strong> y <strong>Jurado de Emprendimiento del MinCiT</strong>.
+        </p>
+        <p>
+          Reconocimientos institucionales recientes incluyen <strong>nominación a Mentor del Año por la Universidad EAN</strong>, <strong>membresía en la Junta Asesora de Mompreneurs Colombia</strong> (junto a Juan Felipe Bayón, ex-presidente de Ecopetrol), <strong>membresía en la Junta Directiva de Emprendedores de Confandi</strong>, y rol de <strong>Jurado y Mentor del Programa Creadores de Nestlé</strong>. Más de <strong>500 empresas acompañadas</strong>, <strong>3.000 estudiantes impactados</strong> y <strong>300 emprendedores formados en EAN Impacta</strong> durante más de cuatro años continuos.
+        </p>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats reveal">
+      <div class="stat"><div class="stat-value">25+</div><div class="stat-label">Años de carrera</div></div>
+      <div class="stat"><div class="stat-value">3.000+</div><div class="stat-label">Estudiantes impactados</div></div>
+      <div class="stat"><div class="stat-value">500+</div><div class="stat-label">Empresas acompañadas</div></div>
+      <div class="stat"><div class="stat-value">300+</div><div class="stat-label">Emprendedores EAN Impacta</div></div>
+    </section>
+
+    <!-- Formación Académica -->
+    <section id="formacion" class="block reveal">
+      <div class="section-head">
+        <span class="section-eyebrow">Formación académica</span>
+        <h2 class="section-title">Títulos <span class="italic grad">universitarios y de posgrado</span></h2>
+      </div>
+      <div class="formacion-grid">
+        <div class="formacion-card">
+          <span class="grado">Maestría</span>
+          <h4>MBA — Magíster en Administración de Empresas</h4>
+          <p class="inst">Universidad EAN — Colombia</p>
+        </div>
+        <div class="formacion-card">
+          <span class="grado">Maestría internacional</span>
+          <h4>Maestría en Liderazgo Estratégico</h4>
+          <p class="inst">Escuela de Negocios de Navarra — España</p>
+        </div>
+        <div class="formacion-card">
+          <span class="grado">Especialización</span>
+          <h4>Especialización en Gerencia de Mercadeo</h4>
+          <p class="inst">Politécnico Grancolombiano — Colombia</p>
+        </div>
+        <div class="formacion-card">
+          <span class="grado">Pregrado</span>
+          <h4>Ingeniero Comercial</h4>
+          <p class="inst">Universidad de Ciencias Aplicadas y Ambientales — UDCA</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Áreas de Cátedra -->
+    <section id="areas" class="block reveal">
+      <div class="section-head">
+        <span class="section-eyebrow">Áreas de cátedra propuestas</span>
+        <h2 class="section-title">Tres dominios <span class="italic grad">que puedo dictar con autoridad</span></h2>
+        <p class="section-subtitle">
+          Estas tres áreas representan la intersección entre mi formación de posgrado, mi carrera ejecutiva en multinacionales y mi práctica docente activa. Cada una incluye cursos específicos que estoy en capacidad de dictar en pregrado, posgrado y educación continua.
+        </p>
+      </div>
+      <div class="areas-grid">
+        <div class="area-card">
+          <div class="area-icon">📊</div>
+          <p class="area-sub">Área 1</p>
+          <h3>Mercadeo y Estrategia Comercial</h3>
+          <p class="area-desc">
+            Mi área natural por formación (Especialización Poli + MBA EAN) y carrera ejecutiva. Brand Activation Manager de Maggi en Nestlé, Trade Training Manager, Commercial Planning Lead. Conozco el mercadeo desde la trinchera del canal y desde el aula.
+          </p>
+          <ul class="area-cursos">
+            <li>Fundamentos de Mercadeo</li>
+            <li>Marketing Digital y Social Commerce</li>
+            <li>Estrategia Comercial e Inteligencia de Mercados</li>
+            <li>Brand Activation y Trade Marketing</li>
+            <li>Investigación de Mercados</li>
+            <li>Comportamiento del Consumidor</li>
+            <li>Planeación Comercial y Pronósticos de Venta</li>
+          </ul>
+        </div>
+        <div class="area-card">
+          <div class="area-icon">🚀</div>
+          <p class="area-sub">Área 2</p>
+          <h3>Emprendimiento e Innovación</h3>
+          <p class="area-desc">
+            Mentor de Emprendimiento certificado por el Politécnico Grancolombiano. 4+ años acompañando a +300 emprendedores en EAN Impacta. Junta Asesora Mompreneurs (20.000+ emprendedoras LATAM). Jurado MinCiT. Mentor GoFest. Práctica viva y continua.
+          </p>
+          <ul class="area-cursos">
+            <li>Innovación y Emprendimiento Digital</li>
+            <li>Modelos de Negocio y Canvas</li>
+            <li>Pitch y Comunicación para Emprendedores</li>
+            <li>Validación de Startups</li>
+            <li>Venture Capital y Ecosistemas de Innovación</li>
+            <li>Liderazgo, Equipos y Cultura Organizacional</li>
+            <li>Emprendimiento Sostenible y de Impacto</li>
+          </ul>
+        </div>
+        <div class="area-card">
+          <div class="area-icon">🤖</div>
+          <p class="area-sub">Área 3</p>
+          <h3>IA Aplicada a los Negocios</h3>
+          <p class="area-desc">
+            Creador del ICONE Method (Identifica · Conecta · Ejecuta) — sistema de orquestación de IAs generativas, predictivas y visuales en flujos comerciales reales. Diseño y dicto el módulo de IA aplicada al retail en el Diplomado de Plaza Imperial. Co-creador del programa IA para BPO con SENA.
+          </p>
+          <ul class="area-cursos">
+            <li>IA Aplicada a los Negocios</li>
+            <li>Prompt Engineering y Orquestación de IAs</li>
+            <li>IA para Marketing y Ventas</li>
+            <li>Transformación Digital Empresarial</li>
+            <li>Promptotipado (prototipado con IA)</li>
+            <li>Ética y Gobernanza de IA en Empresas</li>
+            <li>Digital Business, Marketplaces y Social Commerce</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experiencia Docente -->
+    <section id="docente" class="block reveal">
+      <div class="section-head">
+        <span class="section-eyebrow">Experiencia docente</span>
+        <h2 class="section-title">Trayectoria <span class="italic grad">en aulas universitarias</span></h2>
+        <p class="section-subtitle">
+          Docente activo en simultáneo en tres instituciones colombianas, con responsabilidades de diseño curricular, dictado y diseño de Ambientes Virtuales de Aprendizaje.
+        </p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-period">2024 — Actualidad</div>
+          <div class="timeline-content">
+            <h4>Docente · Virtual Environment Architect</h4>
+            <div class="inst">Universidad EAN — Facultad de Administración, Finanzas y Ciencias Económicas</div>
+            <p>
+              Docente activo en simultáneo en 4 Ambientes Virtuales de Aprendizaje (EAN Virtual 2.0): <em>Digital Business, Marketplaces & Social Commerce · Estrategia Comercial e Inteligencia de Mercados · Innovación y Emprendimiento Digital · Liderazgo, Equipos y Cultura Organizacional</em>. Acompañamiento sostenido durante 4+ años a más de 300 emprendedores del programa EAN Impacta. Nominado a Mentor del Año por la Universidad EAN. Docente del programa EAN Rural — extensión universitaria a contextos rurales.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-period">2022 — Actualidad</div>
+          <div class="timeline-content">
+            <h4>Docente y Corporate AI Trainer</h4>
+            <div class="inst">Politécnico Grancolombiano</div>
+            <p>
+              Docente activo en programas de pregrado y educación continua. Diseño y dictado completo del <strong>Diplomado en Experiencia al Consumidor</strong> en alianza con Plaza Imperial — currículo, módulos, guías académicas, sistema de evaluación y módulo dedicado a IA aplicada al retail. Mentor de Emprendimiento Certificado por la institución.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-period">2024 — Actualidad</div>
+          <div class="timeline-content">
+            <h4>Formador in-company en IA</h4>
+            <div class="inst">SENA — alianza con Politécnico Grancolombiano</div>
+            <p>
+              Diseño y dictado del programa <em>IA para BPO</em> dirigido a trabajadores activos del sector BPO en Montería. Alianza tripartita SENA + Politécnico + Plaza Imperial para reskilling profesional en IA aplicada al puesto de trabajo en sector regulado.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-period">Continuo</div>
+          <div class="timeline-content">
+            <h4>Mentor de Emprendimiento</h4>
+            <div class="inst">Universidad Javeriana · Mompreneurs · GoFest · Confandi · EAN Rural</div>
+            <p>
+              Mentor activo en programas universitarios y ecosistemas de emprendimiento e innovación. Acompañamiento metodológico a equipos en ideación, validación, modelo de negocio y aplicación temprana de IA al proyecto emprendedor.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experiencia Profesional Ejecutiva -->
+    <section id="ejecutivo" class="block reveal">
+      <div class="section-head">
+        <span class="section-eyebrow">Experiencia profesional ejecutiva</span>
+        <h2 class="section-title">Carrera en <span class="italic grad">multinacionales de consumo masivo</span></h2>
+        <p class="section-subtitle">
+          La cancha ejecutiva que sostiene la docencia: experiencia directa en estrategia comercial, brand activation y formación de equipos en organizaciones de gran escala.
+        </p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-period">2008 — Actualidad</div>
+          <div class="timeline-content">
+            <h4>Founder &amp; CEO</h4>
+            <div class="inst">ICONE Academy / ICONE ialabs</div>
+            <p>
+              Empresa propia de consultoría estratégica, formación e infoproductos digitales. +500 empresas acompañadas en LATAM. Creador del ICONE Method — sistema de tres pasos (Identifica · Conecta · Ejecuta) refinado durante más de dos décadas y respaldado por MinCiT, iNNpulsa, EAN, Politécnico Grancolombiano, Mompreneurs, Confandi, GoFest, Plaza Imperial y SENA.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-period">2021 — 2022</div>
+          <div class="timeline-content">
+            <h4>Commercial Planning Lead — Canal Tradicional</h4>
+            <div class="inst">Nestlé Colombia</div>
+            <p>
+              Liderazgo de la planeación comercial del canal tradicional a nivel nacional. Diseño de pronósticos, estrategia de cobertura y gestión de incentivos cruzados con la fuerza de ventas.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-period">2017 — 2021</div>
+          <div class="timeline-content">
+            <h4>Brand Activation Manager — Maggi</h4>
+            <div class="inst">Nestlé Colombia</div>
+            <p>
+              Responsable de la activación comercial de la marca Maggi a escala nacional: lanzamientos, embudo de canal moderno y tradicional, campañas integradas con marketing, ventas y trade. Núcleo de mi expertise en mercadeo aplicado.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-period">2013 — 2017</div>
+          <div class="timeline-content">
+            <h4>Trade Training Manager &amp; DSD Leader</h4>
+            <div class="inst">Nestlé Colombia — Canal Store &amp; Bogotá región</div>
+            <p>
+              Formación y desarrollo de la fuerza de ventas comercial. Diseño de programas pedagógicos in-company aplicados a equipos comerciales. Cierra el círculo entre mi experiencia ejecutiva y la docencia: ya entonces enseñaba dentro de la multinacional.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-period">2004 — 2013</div>
+          <div class="timeline-content">
+            <h4>Director Nacional de Ventas / Gerente Comercial</h4>
+            <div class="inst">Kellogg's Colombia · CasaLuker · La Gitana · Grupo Nutresa</div>
+            <p>
+              Más de 9 años en posiciones directivas comerciales en multinacionales de consumo masivo. Liderazgo de equipos comerciales nacionales, negociación con grandes superficies y diseño de estrategia de canales.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificaciones -->
+    <section class="block reveal">
+      <div class="section-head">
+        <span class="section-eyebrow">Certificaciones profesionales</span>
+        <h2 class="section-title">Avales <span class="italic grad">institucionales</span></h2>
+      </div>
+      <div class="list-grid">
+        <div class="list-item"><div class="icon">🎓</div><div><h5>Mentor de Emprendimiento Certificado</h5><p>Politécnico Grancolombiano</p></div></div>
+        <div class="list-item"><div class="icon">🏛️</div><div><h5>Consultor Certificado en Empresas de Innovación</h5><p>EANT</p></div></div>
+        <div class="list-item"><div class="icon">🎤</div><div><h5>Certificado como Speaker</h5><p>EXMA Festival</p></div></div>
+        <div class="list-item"><div class="icon">💼</div><div><h5>Certificado en Inversión en Startups</h5><p>EXMA</p></div></div>
+        <div class="list-item"><div class="icon">⚖️</div><div><h5>Jurado de Emprendimiento</h5><p>Ministerio de Comercio, Industria y Turismo (MinCiT)</p></div></div>
+        <div class="list-item"><div class="icon">📜</div><div><h5>Venture Capital y Ecosistemas de Innovación</h5><p>Universidad EAN</p></div></div>
+        <div class="list-item"><div class="icon">🏢</div><div><h5>Liderazgo en Ecosistemas Digitales</h5><p>Nestlé Colombia</p></div></div>
+        <div class="list-item"><div class="icon">🌐</div><div><h5>Speaker Internacional</h5><p>EXMA · GoFest · Congreso Iberoamericano</p></div></div>
+      </div>
+    </section>
+
+    <!-- Reconocimientos -->
+    <section class="block reveal">
+      <div class="section-head">
+        <span class="section-eyebrow">Reconocimientos y roles institucionales</span>
+        <h2 class="section-title">Trayectoria <span class="italic grad">validada en el ecosistema</span></h2>
+      </div>
+      <div class="list-grid">
+        <div class="list-item"><div class="icon">🏆</div><div><h5>Nominado a Mentor del Año</h5><p>Universidad EAN — reconocimiento por trayectoria en EAN Impacta</p></div></div>
+        <div class="list-item"><div class="icon">👥</div><div><h5>Miembro de Junta Asesora</h5><p>Mompreneurs Colombia — comunidad de 20.000+ emprendedoras en LATAM, junto con Juan Felipe Bayón (ex-presidente de Ecopetrol)</p></div></div>
+        <div class="list-item"><div class="icon">🤝</div><div><h5>Miembro de Junta Directiva de Emprendedores</h5><p>Confandi — Caja de Compensación con red empresarial activa</p></div></div>
+        <div class="list-item"><div class="icon">🏭</div><div><h5>Jurado y Mentor del Programa Creadores</h5><p>Nestlé Colombia — programa corporativo de innovación</p></div></div>
+        <div class="list-item"><div class="icon">🚀</div><div><h5>Mentor activo</h5><p>GoFest — el ecosistema de emprendimiento más importante de Latinoamérica</p></div></div>
+        <div class="list-item"><div class="icon">📚</div><div><h5>Mentor activo</h5><p>EAN Impacta · Universidad Javeriana · iNNpulsa Colombia · Cámara de Comercio · EAN Rural</p></div></div>
+      </div>
+    </section>
+
+    <!-- Producción Pedagógica -->
+    <section class="block reveal">
+      <div class="section-head">
+        <span class="section-eyebrow">Producción pedagógica e intelectual</span>
+        <h2 class="section-title">Diseños y <span class="italic grad">metodologías propias</span></h2>
+      </div>
+      <div class="list-grid">
+        <div class="list-item"><div class="icon">📐</div><div><h5>ICONE Method</h5><p>Marco propio integrador en 3 pasos (Identifica · Conecta · Ejecuta) aplicado en +15 sectores y avalado institucionalmente</p></div></div>
+        <div class="list-item"><div class="icon">🧠</div><div><h5>Promptotipado</h5><p>Término propio: prototipar con prompts antes que con código — validar hipótesis de IA en horas, no semanas</p></div></div>
+        <div class="list-item"><div class="icon">💻</div><div><h5>4 Ambientes Virtuales de Aprendizaje (AVEs)</h5><p>Diseño completo en EAN Virtual 2.0: Digital Business · Estrategia Comercial · Innovación · Liderazgo</p></div></div>
+        <div class="list-item"><div class="icon">🎯</div><div><h5>Diplomado de Experiencia al Consumidor</h5><p>Diseño curricular completo: Plaza Imperial + Politécnico Grancolombiano — cohorte 2026 activa</p></div></div>
+        <div class="list-item"><div class="icon">🔬</div><div><h5>Programa IA para BPO</h5><p>Co-diseño SENA + Politécnico Grancolombiano — reskilling profesional aplicado al sector</p></div></div>
+        <div class="list-item"><div class="icon">📦</div><div><h5>Infoproductos pedagógicos aplicables</h5><p>Kit de Diagnóstico Empresarial · IA para Negocios · Marca Personal con Autoridad · Plan de Ventas 90 días · LinkedIn para Líderes — en producción en iconeialabs.com</p></div></div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="block reveal">
+      <div class="contacto">
+        <h3>Disponible para cátedra H1 2026 en adelante</h3>
+        <p>
+          Disponibilidad confirmada para modalidad presencial, virtual o híbrida en pregrado, posgrado y educación continua. Para programar entrevista o solicitar documentos formales de soporte (títulos, certificaciones, hoja de vida tradicional), contactar directamente:
+        </p>
+        <div class="contacto-links">
+          <a href="https://wa.me/573158940980?text=Hola%20Jorge%20Hugo%2C%20te%20escribo%20por%20una%20oportunidad%20docente." target="_blank" rel="noopener" class="btn btn-primary">
+            WhatsApp +57 315 894 0980
+          </a>
+          <a href="mailto:jorgehugoperez@iconeialabs.com?subject=Postulaci%C3%B3n%20docente%20%E2%80%94%20Polit%C3%A9cnico" class="btn btn-secondary">
+            Enviar email
+          </a>
+          <a href="https://www.linkedin.com/in/jorgehugoperezgaona/" target="_blank" rel="noopener" class="btn btn-secondary">
+            LinkedIn
+          </a>
+          <a href="javascript:window.print()" class="btn btn-secondary">⬇ Descargar PDF</a>
+        </div>
+        <div class="contacto-data">
+          <span>📱 +57 315 894 0980</span>
+          <span>✉️ jorgehugoperez@iconeialabs.com</span>
+          <span>🌐 iconeialabs.com</span>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Jorge Hugo Pérez Gaona · Hoja de Vida Académica · Documento generado para postulación docente.
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+            observer.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    })();
+  </script>
+
+</body>
+</html>
